@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function AddBlogComponent({ uid }) {
-
+    
     const router = useRouter();
     const [blog, setBlog] = useState({
         title: "",
