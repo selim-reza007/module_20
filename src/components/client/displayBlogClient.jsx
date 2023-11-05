@@ -24,7 +24,7 @@ export default function DisplayBlogClient({ title, data }) {
             <div className='max-w-6xl grid grid-cols-3 ml-10 gap-3'>
 
                 {
-                    data['msg'].map((bi, i) => {
+                    data?.msg?.map((bi, i) => {
                         return (
                             <div key={i} className="w-[330px] h-auto shadow-md my-5 bg-white">
                                 {/* individual blog */}

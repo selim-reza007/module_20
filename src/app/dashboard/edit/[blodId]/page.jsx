@@ -2,9 +2,9 @@ import EditBlogComponent from "@/components/client/EditBlogCom";
 import { EditBlogData } from "@/utility/blogUtility";
 
 export default async function EditBlog({ params }) {
-    let blogId = parseInt(params['blodId']);
+    let blogId = parseInt(params?.blodId);
     let pData = await EditBlogData(blogId);
-    let data = pData['msg'];
+    let data = pData?.msg;
     return (
         <div>
             This is blog edit page!

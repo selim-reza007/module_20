@@ -1,17 +1,15 @@
 "use client";
 
 import { UpdateBlogData } from "@/utility/blogUtility";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function EditBlogComponent({ data, bid }) {
 
-    const router = useRouter();
     const [blog, setBlog] = useState({
-        title: data['title'],
-        details: data['details'],
-        image: data['image'],
-        category: data['category'],
+        title: data?.title,
+        details: data?.details,
+        image: data?.image,
+        category: data?.category,
         id: bid
     });
 
@@ -21,7 +19,6 @@ export default function EditBlogComponent({ data, bid }) {
         let response = await UpdateBlogData(blog);
         alert(response['msg']);
 
-        // router.replace('/dashboard');
         window.location.href = "/dashboard";
 
     }

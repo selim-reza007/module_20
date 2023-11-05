@@ -2,9 +2,9 @@ import { EditBlogData } from "@/utility/blogUtility";
 
 export default async function BlogDetails({ params }) {
 
-    let blogId = parseInt(params['blogId']);
+    let blogId = parseInt(params?.blogId);
     let Data = await EditBlogData(blogId);
-    let blogData = Data['msg'];
+    let blogData = Data?.msg;
     return (
         <div>
             <p><span className="font-bold">Category:</span> {blogData['category']}</p>
