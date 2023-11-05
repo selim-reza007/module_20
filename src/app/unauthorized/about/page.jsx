@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ImFacebook, ImTwitter, ImLinkedin2 } from 'react-icons/im';
+import { ImFacebook, ImTwitter } from 'react-icons/im';
 import { AiOutlineInstagram } from 'react-icons/ai';
 import Subscribe from "@/app/components/client/subscribe";
 
