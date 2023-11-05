@@ -3,7 +3,7 @@
 import { UpdateBlogData } from "@/utility/blogUtility";
 import { useState } from "react";
 
-export default function EditBlogComponent({ data, bid }) {
+export default function EditBlogComponent({ data, bid = null }) {
 
     const [blog, setBlog] = useState({
         title: data?.title,

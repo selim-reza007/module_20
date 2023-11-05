@@ -4,8 +4,8 @@ import { AddNewBlog } from "@/utility/blogUtility";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 
-export default function AddBlogComponent({ uid }) {
-    
+export default function AddBlogComponent({ uid = null }) {
+
     const router = useRouter();
     const [blog, setBlog] = useState({
         title: "",

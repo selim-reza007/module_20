@@ -4,7 +4,7 @@ import { DeleteBlog } from '@/utility/blogUtility';
 import { useRouter } from 'next/navigation';
 import { AiOutlineUser, AiOutlineFieldTime } from 'react-icons/ai';
 
-export default function DisplayBlogClient({ title, data }) {
+export default function DisplayBlogClient({ title = null, data }) {
 
     const router = useRouter();
 

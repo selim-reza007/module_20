@@ -4,7 +4,7 @@ import { logoutAttempt } from "@/utility/LoginUtil";
 import Link from "next/link";
 import { useState } from "react";
 
-export default function Header({ login }) {
+export default function Header({ login = false }) {
 
     let [isLogin, setIsLogin] = useState(login);
 

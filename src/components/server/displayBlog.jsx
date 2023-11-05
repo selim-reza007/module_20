@@ -2,7 +2,7 @@ import { GetAllBlog } from '@/utility/blogUtility';
 import Link from 'next/link';
 import { AiOutlineUser, AiOutlineFieldTime } from 'react-icons/ai';
 
-export default async function DisplayBlog({ title }) {
+export default async function DisplayBlog({ title = null }) {
 
     let allBlogs = await GetAllBlog();
     let data = allBlogs['msg'];
