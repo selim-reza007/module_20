@@ -1,4 +1,4 @@
-import DisplayBlog from "@/app/components/server/displayBlog";
+import DisplayBlog from "@/components/server/displayBlog";
 
 export default function Blog() {
 

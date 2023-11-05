@@ -1,6 +1,6 @@
 import { cookies } from "next/headers";
-import Header from "../components/client/header";
-import Footer from "../components/server/footer";
+import Header from "../../components/client/header";
+import Footer from "../../components/server/footer";
 
 export default async function Layout({ children }) {
     const cookieStore = cookies();

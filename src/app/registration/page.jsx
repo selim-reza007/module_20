@@ -1,4 +1,4 @@
-import RegistrationCompo from "../components/client/registrationCom";
+import RegistrationCompo from "../../components/client/registrationCom";
 
 export default function Registration() {
 

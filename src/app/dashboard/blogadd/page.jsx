@@ -1,4 +1,4 @@
-import AddBlogComponent from "@/app/components/client/addBlogCom";
+import AddBlogComponent from "@/components/client/addBlogCom";
 import { headers } from "next/headers";
 
 async function getHeaders() {

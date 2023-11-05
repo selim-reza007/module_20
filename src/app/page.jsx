@@ -1,8 +1,8 @@
-import Carosul from "./components/client/carosel";
-import Header from "./components/client/header";
-import DisplayBlog from "./components/server/displayBlog";
-import Footer from "./components/server/footer";
-import Hero from "./components/server/hero";
+import Carosul from "../components/client/carosel";
+import Header from "../components/client/header";
+import DisplayBlog from "../components/server/displayBlog";
+import Footer from "../components/server/footer";
+import Hero from "../components/server/hero";
 
 
 export default function Home() {

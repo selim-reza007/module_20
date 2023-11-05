@@ -1,6 +1,6 @@
-import Carosul from "../components/client/carosel";
-import DisplayBlog from "../components/server/displayBlog";
-import Hero from "../components/server/hero";
+import Carosul from "../../components/client/carosel";
+import DisplayBlog from "../../components/server/displayBlog";
+import Hero from "../../components/server/hero";
 
 export default function Unauthorized() {
 

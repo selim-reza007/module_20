@@ -1,5 +1,5 @@
 import Link from "next/link";
-import BackButton from "../components/client/BacktoHome";
+import BackButton from "../../components/client/BacktoHome";
 
 export default function Layout({ children }) {
 

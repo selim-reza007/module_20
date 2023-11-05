@@ -1,4 +1,4 @@
-import EditBlogComponent from "@/app/components/client/EditBlogCom";
+import EditBlogComponent from "@/components/client/EditBlogCom";
 import { EditBlogData } from "@/app/utility/blogUtility";
 
 export default async function EditBlog({ params }) {

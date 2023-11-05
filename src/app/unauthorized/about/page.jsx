@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ImFacebook, ImTwitter } from 'react-icons/im';
 import { AiOutlineInstagram } from 'react-icons/ai';
-import Subscribe from "@/app/components/client/subscribe";
+import Subscribe from "@/components/client/subscribe";
 
 export default async function About() {
 

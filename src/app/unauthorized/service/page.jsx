@@ -1,4 +1,4 @@
-import Services from "@/app/components/server/services";
+import Services from "@/components/server/services";
 
 export default function Service() {
 
