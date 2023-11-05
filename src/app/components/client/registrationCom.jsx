@@ -2,10 +2,11 @@
 
 import { registerUser } from "@/app/utility/registrationUtil";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function RegistrationCompo() {
-
+    const router = useRouter();
     const [user, setUser] = useState({
         name: "",
         email: "",
@@ -20,6 +21,7 @@ export default function RegistrationCompo() {
         if (res['status'] === "Success") {
             alert("New user created!");
             setUser({ email: "", name: "", number: "", password: "" });
+            router.push('/login');
         } else {
             alert("Something went wrong!")
         }

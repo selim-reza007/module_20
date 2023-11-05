@@ -7,10 +7,9 @@ async function getHeaders() {
     return user_id;
 }
 
-export default function AddBlog() {
+export default async function AddBlog() {
 
-    let uid = getHeaders();
-
+    let uid = await getHeaders();
     return (
         <div>
             <AddBlogComponent uid={uid} />

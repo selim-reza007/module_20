@@ -1,4 +1,6 @@
 import { headers } from "next/headers";
+import DisplayBlogClient from "../components/client/displayBlogClient";
+import { GetMyBlogData } from "../utility/blogUtility";
 
 async function getHeaders() {
     let headerList = headers();
@@ -6,13 +8,15 @@ async function getHeaders() {
     return user_id;
 }
 
-export default function Dashboard() {
+export default async function Dashboard() {
 
-    let uid = getHeaders();
+    let uid = await getHeaders();
+    let blogData = await GetMyBlogData(uid);
 
     return (
         <div>
             <p className="text-3xl font-bold">Welcome to Dashboard</p>
+            <DisplayBlogClient title={"List of my blogs"} data={blogData} />
         </div>
     );
 }
