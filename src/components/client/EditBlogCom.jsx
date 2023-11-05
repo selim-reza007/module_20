@@ -1,6 +1,6 @@
 "use client";
 
-import { UpdateBlogData } from "@/app/utility/blogUtility";
+import { UpdateBlogData } from "@/utility/blogUtility";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 

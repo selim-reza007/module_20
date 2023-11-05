@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { VerifyToken } from "./app/utility/JWTHelper";
+import { VerifyToken } from "./utility/JWTHelper";
 
 export default async function Middleware(req) {
     if (req.nextUrl.pathname.startsWith('/dashboard')) {

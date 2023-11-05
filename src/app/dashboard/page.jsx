@@ -1,6 +1,6 @@
 import { headers } from "next/headers";
 import DisplayBlogClient from "../../components/client/displayBlogClient";
-import { GetMyBlogData } from "../utility/blogUtility";
+import { GetMyBlogData } from "../../utility/blogUtility";
 
 async function getHeaders() {
     let headerList = headers();

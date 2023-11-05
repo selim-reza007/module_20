@@ -1,6 +1,6 @@
 "use client";
 
-import { logoutAttempt } from "@/app/utility/LoginUtil";
+import { logoutAttempt } from "@/utility/LoginUtil";
 import Link from "next/link";
 import { useState } from "react";
 

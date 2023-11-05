@@ -1,4 +1,4 @@
-import { getContactInfo } from "@/app/utility/contactutils";
+import { getContactInfo } from "@/utility/contactutils";
 
 export default async function Contact() {
 

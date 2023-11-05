@@ -1,6 +1,6 @@
 "use client";
 
-import { DeleteBlog } from '@/app/utility/blogUtility';
+import { DeleteBlog } from '@/utility/blogUtility';
 import { useRouter } from 'next/navigation';
 import { AiOutlineUser, AiOutlineFieldTime } from 'react-icons/ai';
 

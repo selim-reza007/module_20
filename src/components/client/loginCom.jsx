@@ -3,7 +3,7 @@
 import { AiFillBackward } from 'react-icons/ai';
 import Link from "next/link";
 import { useState } from "react";
-import { loginAttempt } from '@/app/utility/LoginUtil';
+import { loginAttempt } from '@/utility/LoginUtil';
 import { useRouter } from 'next/navigation';
 
 export default function LoginComponent() {

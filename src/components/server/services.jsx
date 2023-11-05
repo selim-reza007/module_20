@@ -1,4 +1,4 @@
-import { getAllServices } from "@/app/utility/serviceutils";
+import { getAllServices } from "@/utility/serviceutils";
 
 export default async function Services() {
 

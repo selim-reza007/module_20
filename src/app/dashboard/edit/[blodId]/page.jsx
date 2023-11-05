@@ -1,5 +1,5 @@
 import EditBlogComponent from "@/components/client/EditBlogCom";
-import { EditBlogData } from "@/app/utility/blogUtility";
+import { EditBlogData } from "@/utility/blogUtility";
 
 export default async function EditBlog({ params }) {
     let blogId = parseInt(params['blodId']);

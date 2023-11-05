@@ -1,4 +1,4 @@
-import { EditBlogData } from "@/app/utility/blogUtility";
+import { EditBlogData } from "@/utility/blogUtility";
 
 export default async function BlogDetails({ params }) {
 

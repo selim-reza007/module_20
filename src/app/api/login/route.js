@@ -1,4 +1,4 @@
-import { tokenCookie } from "@/app/utility/TokenCookie";
+import { tokenCookie } from "@/utility/TokenCookie";
 import { PrismaClient } from "@prisma/client";
 import { cookies } from "next/headers";
 import { NextResponse } from "next/server";

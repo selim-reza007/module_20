@@ -1,4 +1,4 @@
-import { GetAllBlog } from '@/app/utility/blogUtility';
+import { GetAllBlog } from '@/utility/blogUtility';
 import Link from 'next/link';
 import { AiOutlineUser, AiOutlineFieldTime } from 'react-icons/ai';
 
