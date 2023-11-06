@@ -6,7 +6,6 @@ export default async function DisplayBlog({ title = null }) {
 
     let allBlogs = await GetAllBlog();
     let data = allBlogs['msg'];
-
     return (
         <div className="min-h-screen  border-b-2 my-5">
             <h2 className='text-2xl font-bold my-5'>{title}</h2>

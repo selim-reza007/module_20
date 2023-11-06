@@ -55,7 +55,9 @@ export async function UpdateBlogData(blogObj) {
 }
 
 export async function GetAllBlog() {
-    let response = await fetch("http://localhost:3000/api/blog");
+    let response = await fetch("http://localhost:3000/api/blog", {
+        cache: "no-cache"
+    });
     if (response.status !== 200) {
         return "Something went wrong!";
     }
