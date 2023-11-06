@@ -1,1 +1,6 @@
 I have added my sql file. If you want you can use it. It will help you to examine the project.
+
+This project cann't be deployed right now, because it requires me to host it's backend in live server first. But currently I have no capability to host my backend in live server. I have described to Amit Saha in our facebook group (Ostad React-Next-Prisma Batch) that why hostiong backend is required to live this project. 
+
+The post link is (I have described to Amit Saha's comment reply)
+https://www.facebook.com/groups/171874242437736/posts/300011109624048/?comment_id=300011659623993&notif_id=1699175590550697&notif_t=group_comment
